@@ -32,8 +32,10 @@ sap.ui.define([
                 //---convert ArrayBuffer to Blob
                 let blob = new Blob([oBuffer], { type: oType });
 
-                oPosition = oAttachment.indexOf('.');
-                let oFileType = oFileName.substring(10, oPosition);
+                oPosition = oFileName.indexOf('.');
+                oPosition += 1;
+
+                let oFileType = oFileName.substring(128, oPosition);
 
                 oFileName = oFileName.replace(oFileType, "");
 
