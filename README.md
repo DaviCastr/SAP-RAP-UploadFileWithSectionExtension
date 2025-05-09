@@ -8,7 +8,7 @@ reporsitório que permite o upload de arquivos usando extensão no app através 
 
 1. Tela inicial
 
-    ![Início](img/telainicial.png)
+    ![Inicio](img/telainicial.png)
 
 2. Tela de detalhes
     ![Detalhes  odata v2](img/detalhes.png)
